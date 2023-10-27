@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 15, 15);
+    height: 100vh;
+    text-align: center;
+    font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+}
+
+
+/*---サークル設定---*/
+.circle-container {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 150px;
+    width: 150px;
+    /* ボタンの幅を設定 */
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 150px;
+    cursor: pointer;
+    overflow: hidden;
+    /* 余分な部分を切り取る */
+    position: relative;
+    /* 円内の画像を配置するため */
+
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 画像を円に合わせて切り取る */
+}
+
+/*---ボタン設定---*/
+.gradient3 {
+    /*ボタンの形状*/
+    display: inline-block;
+    color: #fff;
+
+    padding: 13px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    outline: none;
+    /*背景色*/
+    background: #bc7a5e;
+}
+
+/*---画像設定---*/
+.logo img {
+    max-width: 100%;
+}
+
+.heading img {
+    max-width: 100%;
+    /* 下の画像がセクションに合うように最大幅を設定 */
+    height: auto;
+    /* アスペクト比を維持 */
+}
+
+.heading section img {
+    max-width: 100%;
+    /* 下の画像がセクションに合うように最大幅を設定 */
+    height: auto;
+    /* アスペクト比を維持 */
+    max-height: 500px;
+}
+
+section img {
+    max-width: 85%;
+    /* 下の画像がセクションに合うように最大幅を設定 */
+    height: auto;
+    /* アスペクト比を維持 */
+}
+
+img {
+    margin: 0px;
+}
+
+/*---テキスト設定---*/
+p {
+    color: #fff;
+}
+
+.heading h2 {
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.heading p {
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #ffe1e1;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #ffb59a;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+h6 {
+    font-size: 16px;
+    color: #bc7a5e;
+    margin: 0px;
+}
+
+section {
+    text-align: center;
+}
+
+.gamelink {
+    border-radius: 4px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #27e516;
+}
+
+
+
+
+.footer p {
+    color: #999;
+    font-size: 15px;
+    color: #999;
+    background: #fff;
+    border-top: 1px solid #e5e7eb;
+
+    z-index: 9999;
+}
+
+a {
+    text-decoration: none;
+    color: #090909;
+}
